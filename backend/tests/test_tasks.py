@@ -5,7 +5,7 @@ from app.main import app
 from app.database import Base, get_db
 import os
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:password@localhost:5432/stam_test")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:12345@localhost:5432/stam_test")
 
 engine = create_engine(DATABASE_URL)
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

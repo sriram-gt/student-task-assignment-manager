@@ -10,6 +10,11 @@ export default [
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
     },
     plugins: {
       'react-hooks': reactHooks,
@@ -19,7 +24,6 @@ export default [
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': 'off',
       'no-unused-vars': 'off',
-      'no-undef': 'off',
     },
   },
 ]
