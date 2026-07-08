@@ -340,8 +340,6 @@ tests/test_tasks.py::test_get_tasks_unauthorized  PASSED
 
 ## Author
 
-**Sriram**
-B.Tech Computer Science — VIT Chennai
 GitHub: [@sriram-gt](https://github.com/sriram-gt)
 
 ---
